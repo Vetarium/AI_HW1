@@ -12,3 +12,9 @@ then model gets the image firsty it resizes to suitable format for the model 416
 then it goes to the processing of frame and coordinates of detected object there model has confidence parameter to display how model confident about the detected item.
 
 it builds the frame around our object and displays the name from coco  names
+
+In this project we have 2 versions yolo1 and yoloWEbcam the diffirence between them that yolo1 file is purposed to detect objects on images
+while the yoloWebCam is for getting video from web camera and process this image and detect objects in real time and logging detected into the console
+
+The video cam access is made by openCV cap = cv2.VideoCapture(0) comamnd and 0 means that 0th web camera source
+

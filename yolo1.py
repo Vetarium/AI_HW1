@@ -12,9 +12,9 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers().flatten()]
 
 #images for detection
-#img = cv2.imread("image1.jpeg")
+img = cv2.imread("image1.jpeg")
 #img = cv2.imread("image2.jpg")
-img = cv2.imread("car.jpg")
+#img = cv2.imread("car.jpg")
 height, width, channels = img.shape
 
 # YOLO штуки с процессингом
