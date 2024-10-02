@@ -1,0 +1,14 @@
+Aron Karatayev HW 1
+Yolo4 model
+
+Yolo model has two main parts weights and config also it has coco names file with names of things to detect.
+
+weight is how the model trained to detect the objects from the image or video
+config is the file describing how the model works
+
+we use openCV to make it work
+
+then model gets the image firsty it resizes to suitable format for the model 416 x 416 but not crops
+then it goes to the processing of frame and coordinates of detected object there model has confidence parameter to display how model confident about the detected item.
+
+it builds the frame around our object and displays the name from coco  names
