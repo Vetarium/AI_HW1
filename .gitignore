@@ -54,6 +54,7 @@ cover/
 # Translations
 *.mo
 *.pot
+#file to not upload
 yolov4.weights
 
 # Django stuff:
